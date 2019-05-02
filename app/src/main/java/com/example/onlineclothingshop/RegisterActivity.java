@@ -26,15 +26,6 @@ public class RegisterActivity extends AppCompatActivity {
         etPassword=findViewById(R.id.etPassword);
         etConfirmPassword=findViewById(R.id.etConfirmPassword);
         btnRegister=findViewById(R.id.btnSignUp);
-        btnLogin=findViewById(R.id.btnLogin);
-
-        btnLogin.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent intent=new Intent(RegisterActivity.this, LoginActivity.class);
-                startActivity(intent);
-            }
-        });
 
         btnRegister.setOnClickListener(new View.OnClickListener() {
             @Override
