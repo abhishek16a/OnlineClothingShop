@@ -2,44 +2,38 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="fragments.LoginFragment"
+    tools:context="fragments.Fragment_Login"
     android:orientation="vertical">
-
-    <!-- TODO: Update blank fragment layout -->
-    <TextView
+    <EditText
+        android:layout_height="80dp"
         android:layout_width="match_parent"
-        android:layout_height="60dp"
-        android:hint="LOGIN PAGE"
-        android:textAlignment="center"
-        android:textSize="30dp"/>
+        android:layout_margin="20dp"
+        android:hint="Enter your name"
+        android:textSize="30sp"
+        android:id="@+id/etUsername"
+
+        />
 
     <EditText
-        android:id="@+id/etUserName"
+        android:layout_height="80dp"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:hint="enter your username"
-        android:textAlignment="center"/>
-
-    <EditText
+        android:layout_margin="20dp"
+        android:hint="Enter your password"
+        android:textSize="30sp"
         android:id="@+id/etPassword"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:hint="enter your password"
-        android:textAlignment="center"/>
 
-    <!--<EditText-->
-    <!--android:id="@+id/etConfirmPassword"-->
-    <!--android:layout_width="match_parent"-->
-    <!--android:layout_height="wrap_content"-->
-    <!--android:hint="confirm password"-->
-    <!--android:textAlignment="center"/>-->
+
+        />
 
     <Button
-        android:id="@+id/btnLogIn"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:textAlignment="center"
-        android:text="LOG IN"
-        android:layout_marginLeft="150dp"/>
+        android:text="Login"
+        android:layout_gravity="center"
+        android:textColor="@android:color/holo_green_dark"
+        android:textSize="30sp"
+        android:id="@+id/btnLogin"
+        />
+
 
 </LinearLayout>

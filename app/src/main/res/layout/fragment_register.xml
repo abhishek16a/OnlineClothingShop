@@ -5,42 +5,40 @@
     tools:context="fragments.RegisterFragment"
     android:orientation="vertical">
 
-    <!-- TODO: Update blank fragment layout -->
-    <TextView
+    <EditText
         android:layout_width="match_parent"
-        android:layout_height="60dp"
-        android:hint="LOGIN PAGE"
-        android:textAlignment="center"
-        android:textSize="30dp"/>
+        android:layout_height="90dp"
+        android:id="@+id/Username"
+        android:hint="Enter Username"
+        android:layout_margin="10dp"
+        android:textSize="30sp"
+        />
 
     <EditText
-        android:id="@+id/etUserName"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:hint="enter your username"
-        android:textAlignment="center"/>
+        android:layout_height="90dp"
+        android:id="@+id/Password"
+        android:hint="Enter Your Password"
+        android:layout_margin="10dp"
+        android:textSize="30sp"
+        />
 
     <EditText
-        android:id="@+id/etPassword"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:hint="enter your password"
-        android:textAlignment="center"/>
-
-    <EditText
-        android:id="@+id/etConfirmPassword"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:hint="confirm password"
-        android:textAlignment="center"/>
+        android:layout_height="90dp"
+        android:id="@+id/ConPassword"
+        android:hint="Confirm Your  password"
+        android:layout_margin="10dp"
+        android:textSize="30sp"
+        />
 
     <Button
-        android:id="@+id/btnSignUp"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:textAlignment="center"
+        android:layout_width="150dp"
+        android:layout_height="80dp"
         android:text="Register"
-        android:layout_marginLeft="150dp"/>
-
+        android:id="@+id/btnRegister"
+        android:layout_gravity="center"
+        android:layout_margin="20dp"
+        android:textSize="20sp"/>
 
 </LinearLayout>
