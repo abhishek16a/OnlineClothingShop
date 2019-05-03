@@ -4,7 +4,7 @@
     android:layout_height="match_parent"
     android:background="#859113"
     android:orientation="vertical"
-    tools:context="fragment.LoginFragment">
+    tools:context="fragment.SignupFragment">
 
     <!-- TODO: Update blank fragment layout -->
     <LinearLayout
@@ -16,7 +16,7 @@
 
 
         <EditText
-            android:id="@+id/etUsername_Login"
+            android:id="@+id/etUsername_Signup"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="10dp"
@@ -25,11 +25,33 @@
             android:drawablePadding="8dp"
             android:hint="Username"
             android:maxLines="1"
-            android:textSize="25sp"
-            android:textColorHint="#fff"
             android:textColor="#fff"
-            android:textStyle="bold"
-            android:layout_margin="20dp"/>
+            android:textColorHint="#fff"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+        />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="5dp"
+            android:background="#f9d7db"
+            android:layout_marginLeft="35dp"/>
+
+        <EditText
+            android:id="@+id/etPasword_Signup"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:background="@android:color/transparent"
+            android:drawableLeft="@drawable/ic_lock_outline_black_24dp"
+            android:drawablePadding="8dp"
+            android:hint="Create Password"
+            android:inputType="textPassword"
+            android:maxLines="1"
+            android:textColor="#fff"
+            android:textColorHint="#fff"
+            android:textSize="25sp"
+            android:textStyle="bold" />
 
         <View
             android:layout_width="match_parent"
@@ -37,22 +59,23 @@
             android:layout_marginLeft="35dp"
             android:background="#f9d7db" />
 
+        />
+
         <EditText
-            android:id="@+id/etPassword_Login"
+            android:id="@+id/etConfPass_Signup"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="20dp"
             android:background="@android:color/transparent"
             android:drawableLeft="@drawable/ic_lock_outline_black_24dp"
             android:drawablePadding="8dp"
-            android:hint="Password"
+            android:hint="Re-Enter Password"
             android:inputType="textPassword"
             android:maxLines="1"
             android:textSize="25sp"
             android:textColor="#fff"
             android:textColorHint="#fff"
-            android:textStyle="bold"
-            android:layout_margin="20dp"/>
+            android:textStyle="bold" />
 
         <View
             android:layout_width="match_parent"
@@ -61,7 +84,7 @@
             android:background="#f9d7db" />
 
         <Button
-            android:id="@+id/btnLogin"
+            android:id="@+id/btnSignup"
             style="@style/Base.TextAppearance.AppCompat.Body1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -70,11 +93,11 @@
             android:background="@drawable/ic_button"
             android:paddingLeft="20dp"
             android:paddingRight="20dp"
-            android:text="Login"
+            android:text="Sign up"
             android:textAllCaps="false"
             android:textColor="#000"
             android:textSize="25sp"
             android:textStyle="bold" />
-    </LinearLayout>
 
+    </LinearLayout>
 </LinearLayout>

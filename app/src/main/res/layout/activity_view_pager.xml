@@ -11,10 +11,10 @@
     <android.support.design.widget.TabLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/tabLayout"
-        app:tabTextColor="#FFFFFF"
-        app:tabIndicatorColor="#2C1752"
-        android:background="#C3704A">
+        android:id="@+id/tabId"
+        app:tabTextColor="#F7F3F3"
+        app:tabIndicatorColor="#A39A9A"
+        android:background="#1DAF6C">
 
     </android.support.design.widget.TabLayout>
 
