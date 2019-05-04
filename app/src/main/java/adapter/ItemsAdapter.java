@@ -35,11 +35,12 @@ public class ItemsAdapter extends RecyclerView.Adapter<ItemsAdapter.ItemsViewHol
     }
 
     @Override
-    public void onBindViewHolder(@NonNull ItemsViewHolder itemsViewHolder, final int i) {
+    public void onBindViewHolder(@NonNull ItemsViewHolder itemsViewHolder,  int i) {
         final Items items=itemsList.get(i);
         itemsViewHolder.imgItem.setImageResource(Integer.parseInt(items.getItemImage()));
 //        itemsViewHolder.tvItemName.setText(items.getItemName());
 //        itemsViewHolder.tvItemPrice.setText(items.getItemPrice());
+
 
         itemsViewHolder.imgItem.setOnClickListener(new View.OnClickListener() {
             @Override

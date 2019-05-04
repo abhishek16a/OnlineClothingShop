@@ -4,8 +4,6 @@ import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.widget.TextView;
 
-import com.example.onlineclothingshop.R;
-
 public class DetailsActivity extends AppCompatActivity {
     TextView itemname,itemprice,itemImageName,itemdesc;
 

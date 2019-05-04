@@ -45,7 +45,7 @@ public class DashboardActivity extends AppCompatActivity {
         });
         ItemsAdapter itemsAdapter=new ItemsAdapter(this, listItems);
         recyclerView.setAdapter(itemsAdapter);
-        recyclerView.setLayoutManager(new LinearLayoutManager(this));
+        recyclerView.setLayoutManager(new LinearLayoutManager(this, LinearLayoutManager.VERTICAL, false));
     }
     private void readFromFile(){
         try{
