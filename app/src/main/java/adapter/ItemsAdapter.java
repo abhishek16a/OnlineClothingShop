@@ -7,7 +7,7 @@ import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.TextView;
+
 
 import com.example.onlineclothingshop.DetailsActivity;
 import com.example.onlineclothingshop.R;
@@ -62,12 +62,10 @@ public class ItemsAdapter extends RecyclerView.Adapter<ItemsAdapter.ItemsViewHol
 
     public class ItemsViewHolder extends RecyclerView.ViewHolder{
         CircleImageView imgItem;
-        TextView tvItemName, tvItemPrice;
         public ItemsViewHolder(View itemView){
             super(itemView);
             imgItem=itemView.findViewById(R.id.itemImage);
-//            tvItemName=itemView.findViewById(R.id.tvItemName);
-//            tvItemPrice=itemView.findViewById(R.id.tvItemPrice);
+
 
         }
     }

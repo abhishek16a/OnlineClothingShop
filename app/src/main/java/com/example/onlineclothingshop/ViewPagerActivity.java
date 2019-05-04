@@ -18,7 +18,7 @@ public class ViewPagerActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_view_pager);
 
-        tabLayout=findViewById(R.id.tabLayout);
+        tabLayout=findViewById(R.id.tabId);
         viewPager=findViewById(R.id.viewPager);
 
         ViewPagerAdapter adapter=new ViewPagerAdapter(getSupportFragmentManager());

@@ -55,7 +55,7 @@ public class AddItemActivity extends AppCompatActivity {
             Toast.makeText(this,"Saved to"+getFilesDir(),Toast.LENGTH_SHORT).show();
 
         }catch (IOException e){
-            Log.d("Online Cloth App","Error: "+e.toString());
+            Log.d("Online Clothing App","Error: "+e.toString());
             e.printStackTrace();
         }
     }
